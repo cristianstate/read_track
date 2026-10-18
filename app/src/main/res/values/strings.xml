@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">ReadTrack</string>
+
+    <!-- Navigation Labels -->
+    <string name="title_book_list">Bibliotecă</string>
+    <string name="title_add_book">Adăugare Carte Nouă</string>
+    <string name="title_book_details">Detalii Carte</string>
+
+    <!-- Book List Screen -->
+    <string name="hint_search_books">Caută cărți...</string>
+    <string name="desc_add_book">Adaugă Carte</string>
+
+    <!-- Add Book Screen -->
+    <string name="hint_book_name">Numele cărții</string>
+    <string name="hint_author">Autor</string>
+    <string name="hint_category">Categorie</string>
+    <string name="hint_chapters">Număr de capitole</string>
+    <string name="hint_pages">Număr de pagini</string>
+    <string name="btn_save_book">Salvează Cartea</string>
+    <string name="msg_fill_all_fields">Vă rugăm să completați toate câmpurile</string>
+    <string name="msg_book_saved">Carte salvată</string>
+
+    <!-- Book Details Screen -->
+    <string name="label_pages_read">%1$d / %2$d pagini</string>
+    <string name="btn_update_progress">Actualizează Progresul</string>
+    <string name="btn_delete_book">Șterge Cartea</string>
+
+    <!-- Update Progress Dialog -->
+    <string name="title_update_progress">Actualizează Progresul</string>
+    <string name="hint_current_page">Pagina curentă</string>
+    <string name="btn_update">Actualizează</string>
+    <string name="btn_cancel">Anulează</string>
+    <string name="msg_page_exceed_total">Pagina nu poate depăși numărul total de pagini</string>
+
+    <!-- Delete Confirmation Dialog -->
+    <string name="title_delete_book">Șterge Cartea</string>
+    <string name="msg_delete_confirm">Sigur doriți să ștergeți această carte?</string>
+    <string name="btn_delete">Șterge</string>
+    <string name="msg_book_deleted">Carte ștearsă</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/bookListFragment">
+
+    <fragment
+        android:id="@+id/bookListFragment"
+        android:name="com.fitness.myapplication6.ui.fragment.BookListFragment"
+        android:label="@string/title_book_list"
+        tools:layout="@layout/fragment_book_list">
+        <action
+            android:id="@+id/action_bookListFragment_to_addBookFragment"
+            app:destination="@id/addBookFragment" />
+        <action
+            android:id="@+id/action_bookListFragment_to_bookDetailFragment"
+            app:destination="@id/bookDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addBookFragment"
+        android:name="com.fitness.myapplication6.ui.fragment.AddBookFragment"
+        android:label="@string/title_add_book"
+        tools:layout="@layout/fragment_add_book" />
+
+    <fragment
+        android:id="@+id/bookDetailFragment"
+        android:name="com.fitness.myapplication6.ui.fragment.BookDetailFragment"
+        android:label="@string/title_book_details"
+        tools:layout="@layout/fragment_book_detail">
+        <argument
+            android:name="bookId"
+            app:argType="integer" />
+    </fragment>
+</navigation>
